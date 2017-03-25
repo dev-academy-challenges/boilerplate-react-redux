@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/index.js',
+  entry: './client/index.js',
   output: 'bundle.js',
   module: {
     loaders: [
