@@ -5,7 +5,6 @@
   "main": "server/index.js",
   "scripts": {
     "start": "nodemon --watch server server/index & webpack --watch",
-    "test": "tape -r babel-register 'test/**/*.test.js' | tap-diff",
     "watch": "nodemon -e js,jsx -x npm test"
   },
   "keywords": [
