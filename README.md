@@ -12,7 +12,7 @@ git clone https://github.com/[your-org]/[your-app].git
 cd [your-app] && npm install
 ```
 
-To start the Webpack dev server, run `npm start`, and go to [http://localhost:8080](http://localhost:8080).
+To start the express server, run `npm start`, and go to [http://localhost:3000](http://localhost:3000).
 
 This is the structure of this boilerplate:
 
@@ -32,9 +32,13 @@ This is the structure of this boilerplate:
 │   │   ├── index.js
 │   │   └── words.js
 │   └── index.js
+├── public
+│   ├── index.html
+│   └── main.css
+├── server
+│   ├── index.js
+│   └── server.js
 ├── .gitignore
-├── index.html
-├── main.css
 ├── package.json
 ├── README.md
 └── webpack.config.js
