@@ -9,13 +9,15 @@ function submitWord (e, dispatch) {
   }
 }
 
-const AddWord = ({dispatch}) => (
+const AddWord = (props) => (
   <input
-    placeholder="Enter a word or phrase"
+    placeholder='Enter a word or phrase'
     onKeyUp={e => {
-      submitWord(e, dispatch)
+      // the connect() call below puts
+      // dispatch directly on props
+      submitWord(e, props.dispatch)
     }}
-    />
+  />
 )
 
 export default connect()(AddWord)
