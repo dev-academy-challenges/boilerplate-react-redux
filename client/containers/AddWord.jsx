@@ -9,7 +9,7 @@ function submitWord (e, dispatch) {
   }
 }
 
-let AddWord = ({dispatch}) => (
+const AddWord = ({dispatch}) => (
   <input
     placeholder="Enter a word or phrase"
     onKeyUp={e => {
@@ -18,6 +18,4 @@ let AddWord = ({dispatch}) => (
     />
 )
 
-AddWord = connect()(AddWord)
-
-export default AddWord
+export default connect()(AddWord)
