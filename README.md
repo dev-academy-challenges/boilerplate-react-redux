@@ -20,12 +20,11 @@ This is the structure of this boilerplate:
 │   ├── actions
 │   │   └── index.js
 │   ├── components
-│   │   ├── AddWord.jsx
 │   │   ├── App.jsx
-│   │   ├── Word.jsx
-│   │   └── Words.jsx
+│   │   └── Word.jsx
 │   ├── containers
-│   │   └── WordsContainer.js
+│   │   ├── AddWord.jsx
+│   │   └── Words.js
 │   ├── reducers
 │   │   ├── index.js
 │   │   └── words.js
