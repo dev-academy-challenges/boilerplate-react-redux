@@ -1,6 +1,8 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
+import {connect} from 'react-redux'
 
-import Word from './Word'
+import Word from '../components/Word'
 
 const Words = ({words}) => (
   <div>
@@ -22,4 +24,12 @@ Words.propTypes = {
   ).isRequired
 }
 
-export default Words
+const mapStateToProps = (state) => {
+  return {
+    words: state.words
+  }
+}
+
+export default connect(
+  mapStateToProps
+)(Words)

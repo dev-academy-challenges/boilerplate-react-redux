@@ -12,11 +12,9 @@ git clone https://github.com/[your-org]/[your-app].git
 cd [your-app] && npm install
 ```
 
-To start the express server, run `npm start`, and go to [http://localhost:3000](http://localhost:3000).
-
 This is the structure of this boilerplate:
 
-```
+```sh
 .
 ├── client
 │   ├── actions
