@@ -9,7 +9,7 @@ To use:
 
 ```sh
 git clone https://github.com/[your-org]/[your-app].git
-cd [your-app] && npm install
+cd [your-app] && yarn
 ```
 
 This is the structure of this boilerplate:
@@ -20,11 +20,10 @@ This is the structure of this boilerplate:
 │   ├── actions
 │   │   └── index.js
 │   ├── components
-│   │   ├── App.jsx
-│   │   └── Word.jsx
-│   ├── containers
 │   │   ├── AddWord.jsx
-│   │   └── Words.js
+│   │   ├── App.jsx
+│   │   ├── Word.jsx
+│   │   └── Words.jsx
 │   ├── reducers
 │   │   ├── index.js
 │   │   └── words.js

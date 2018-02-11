@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 
-import Word from '../components/Word'
+import Word from './Word'
 
 const Words = ({words}) => (
   <div>
