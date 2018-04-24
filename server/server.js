@@ -1,7 +1,7 @@
-var path = require('path')
-var express = require('express')
+const path = require('path')
+const express = require('express')
 
-var server = express()
+const server = express()
 
 server.use(express.json())
 server.use(express.static(path.join(__dirname, '../public')))
