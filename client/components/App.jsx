@@ -1,12 +1,9 @@
 import React from 'react'
-
-import Words from './Words'
-import AddWord from './AddWord'
+import Question from './Question'
 
 const App = () => (
-  <div className='app-container'>
-    <Words />
-    <AddWord />
+  <div className='app-container'> 
+    <Question />
   </div>
 )
 
