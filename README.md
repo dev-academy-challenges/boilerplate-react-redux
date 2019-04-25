@@ -1,41 +1,16 @@
-# A starter project for React/Redux
 
-> A minimalistic React/Redux starter project
+MVP
 
-To use:
+As a user I want to be able to take a quiz. 
 
-* Fork this repo
-* Rename your repo according to the app you're building
+As a user I want to be able to have  one quetion presented to me at a time. 
 
-```sh
-git clone https://github.com/[your-org]/[your-app].git
-cd [your-app] && npm
-```
+As a user I want to have the next question rendered after I answer a question. 
 
-This is the structure of this boilerplate:
+As a user I want to find out which EDA staff member I am. 
 
-```sh
-.
-├── client
-│   ├── actions
-│   │   └── index.js
-│   ├── components
-│   │   ├── AddWord.jsx
-│   │   ├── App.jsx
-│   │   ├── Word.jsx
-│   │   └── Words.jsx
-│   ├── reducers
-│   │   ├── index.js
-│   │   └── words.js
-│   └── index.js
-├── public
-│   ├── index.html
-│   └── main.css
-├── server
-│   ├── index.js
-│   └── server.js
-├── .gitignore
-├── package.json
-├── README.md
-└── webpack.config.js
-```
+Stretch
+
+As a user I want to have feedback / comments from a thing in the corner. 
+
+As a user i want to be able to submit my own survey. 
