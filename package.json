@@ -4,8 +4,12 @@
   "description": "React Redux using express",
   "main": "server/index.js",
   "scripts": {
-    "start": "webpack && node server",
-    "dev": "nodemon --watch server & webpack --watch"
+    "client": "webpack",
+    "server": "node server",
+    "dev:client": "webpack --watch",
+    "dev:server": "nodemon server",
+    "start": "run-s client server",
+    "dev": "run-p dev:client dev:server"
   },
   "author": "EDA",
   "license": "ISC",
@@ -27,6 +31,7 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "nodemon": "^2.0.3",
+    "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
