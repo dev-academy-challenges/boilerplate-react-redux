@@ -9,7 +9,7 @@ To use:
 
 ```sh
 git clone https://github.com/[your-org]/[your-app].git
-cd [your-app] && npm
+cd [your-app] && npm i
 ```
 
 This is the structure of this boilerplate:
