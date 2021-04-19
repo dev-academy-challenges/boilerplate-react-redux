@@ -4,10 +4,11 @@
   "description": "React Redux using express",
   "main": "server/index.js",
   "scripts": {
-    "client": "webpack",
+    "client": "npm run webpack",
     "server": "node server",
-    "dev:client": "webpack --watch",
+    "dev:client": "npm run webpack -- --watch",
     "dev:server": "nodemon server",
+    "webpack": "webpack --config client/webpack.config.js",
     "start": "run-s client server",
     "dev": "run-p dev:client dev:server"
   },
