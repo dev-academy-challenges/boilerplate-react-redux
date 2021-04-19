@@ -1,9 +1,9 @@
 import React from 'react'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 
 import Word from './Word'
 
-const Words = ({words}) => (
+const Words = ({ words }) => (
   <div>
     {words.map(word =>
       <Word key={word.id}
